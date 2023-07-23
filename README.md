@@ -30,18 +30,6 @@
 
 8. Receive the permission notification by Email
 
-
-## Run Llama 2 in VS Code
-1. install packages
-    ```bash
-    pip install -r requirements.txt
-    ```
-2. download model
-    ```bash
-    python notebook/src/model_download.py
-    ```
-
-
 ## Run Llama 2 in JupyterLab
 1. install packages
     ```bash
@@ -64,4 +52,22 @@
 
 5. Execute scripts in Notebook
 
-![Screenshot](/img/run-llama.png)
+- step-1.ipynb
+- step-2.ipynb
+
+
+## Run Llama 2 in your IDE
+
+1. Login HuggingFace
+    ```bash
+    huggingface-cli login
+    ```
+
+2. install packages
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. download model
+    ```bash
+    python src/main.py
+    ```
