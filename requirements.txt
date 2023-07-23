@@ -1,0 +1,5 @@
+accelerate==0.21.0
+jupyterlab==4.0.3
+ipywidgets==8.0.7
+transformers==4.31.0
+torch==2.0.1

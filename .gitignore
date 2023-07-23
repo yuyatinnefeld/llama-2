@@ -1,0 +1,9 @@
+# secrets
+.env
+
+# python env
+venv
+
+# cache/checkpoints
+.ipynb_checkpoints
+.DS_Store
