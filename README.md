@@ -1,3 +1,8 @@
+# LLAMA-2 API + Python / JupyterLab
+
+## Source
+- https://huggingface.co/docs/transformers/main_classes/text_generation
+
 ## Setup Workspace Environments
 
 1. register by meta to download the model
